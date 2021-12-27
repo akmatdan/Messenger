@@ -51,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				E38BAAEC2776B998006340EF /* Messenger */,
-				E38BAAFB2776B99C006340EF /* Info.plist */,
 				E38BAAEB2776B998006340EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +66,7 @@
 		E38BAAEC2776B998006340EF /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				E38BAAFB2776B99C006340EF /* Info.plist */,
 				E38BAB062776BFED006340EF /* Resources */,
 				E38BAB052776BFE1006340EF /* ViewModels */,
 				E38BAB042776BFD6006340EF /* Models */,
@@ -89,8 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E38BAAF12776B998006340EF /* ConversationsViewController.swift */,
-				E38BAB1D277961EC006340EF /* LoginViewController.swift */,
-				E38BAB20277961FE006340EF /* RegisterViewController.swift */,
+				E38BAB2D27796A98006340EF /* Auth */,
 				E38BAB2327796215006340EF /* PhotoViewerViewController.swift */,
 				E38BAB262779623E006340EF /* VideoPlayerViewController.swift */,
 				E38BAB2927796257006340EF /* NewConversationViewController.swift */,
@@ -128,6 +127,15 @@
 				E38BAAF82776B99C006340EF /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E38BAB2D27796A98006340EF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E38BAB1D277961EC006340EF /* LoginViewController.swift */,
+				E38BAB20277961FE006340EF /* RegisterViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
