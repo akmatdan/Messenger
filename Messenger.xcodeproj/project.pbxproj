@@ -18,6 +18,7 @@
 		E38BAB2427796215006340EF /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38BAB2327796215006340EF /* PhotoViewerViewController.swift */; };
 		E38BAB272779623E006340EF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38BAB262779623E006340EF /* VideoPlayerViewController.swift */; };
 		E38BAB2A27796257006340EF /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38BAB2927796257006340EF /* NewConversationViewController.swift */; };
+		E38BAB312779A224006340EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38BAB302779A224006340EF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E38BAB2327796215006340EF /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		E38BAB262779623E006340EF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		E38BAB2927796257006340EF /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		E38BAB302779A224006340EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				E38BAAED2776B998006340EF /* AppDelegate.swift */,
 				E38BAAEF2776B998006340EF /* SceneDelegate.swift */,
+				E38BAB302779A224006340EF /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38BAB1E277961EC006340EF /* LoginViewController.swift in Sources */,
+				E38BAB312779A224006340EF /* Extensions.swift in Sources */,
 				E38BAB21277961FE006340EF /* RegisterViewController.swift in Sources */,
 				E38BAB2A27796257006340EF /* NewConversationViewController.swift in Sources */,
 				E38BAAF22776B998006340EF /* ConversationsViewController.swift in Sources */,
